@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>PVE虚拟系统黑群晖硬盘直通的方法</title>
+    <url>/2024/06/24/PVE%E8%99%9A%E6%8B%9F%E7%B3%BB%E7%BB%9F%E9%BB%91%E7%BE%A4%E6%99%96%E7%A1%AC%E7%9B%98%E7%9B%B4%E9%80%9A%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>PVE虚拟系统黑群晖硬盘直通的方法：<br>点击PVE然后点击Shell，然后输入命令查看设备序列号，然后找到相关的硬盘设备复制下来设备号，再次输入直通命令来直通硬盘，相关命令如下：</p>
+<span id="more"></span>
+
+<p>直通代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm importdisk 100 复制的内容 local-lvm</span><br><span class="line">查看设备序列号：ls -l /dev/disk/by-id/</span><br><span class="line">选择直通的硬盘：qm set 102 -sata2 /dev/disk/by-id/复制的内容</span><br></pre></td></tr></table></figure>
+
+<p>输入命令的时候一定要注意门牌号和硬盘的序号，不能输错或者输重复<br>完成后重新启动pve系统</p>
+<p>举例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm set 102 -sata2 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ #其中ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ为相关硬盘的序号</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm set 102 -sata3 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS #其中ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS为相关硬盘的序号</span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Ubuntu开通SSH和root登录方法</title>
+    <url>/2024/06/24/Ubuntu%E5%BC%80%E9%80%9ASSH%E5%92%8Croot%E7%99%BB%E5%BD%95%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="Ubuntu开通SSH和root登录方法"><a href="#Ubuntu开通SSH和root登录方法" class="headerlink" title="Ubuntu开通SSH和root登录方法"></a>Ubuntu开通SSH和root登录方法</h2><h3 id="Ubuntu开通SSH方法"><a href="#Ubuntu开通SSH方法" class="headerlink" title="Ubuntu开通SSH方法"></a>Ubuntu开通SSH方法</h3><p>开通SSH登录方法：<br>1，必须切换成为root用户</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo -i</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>2，先更新软件列表和更新软件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+
+<p>3，先更新软件列表和更新软件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
+
+<p>4，安装ssh</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get install ssh</span><br></pre></td></tr></table></figure>
+
+<p>5，启动ssh服务</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/ssh start</span><br></pre></td></tr></table></figure>
+
+<p>6，检查是否有ssh环境</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ps -e | grep ssh</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="开通root登录SSH权限"><a href="#开通root登录SSH权限" class="headerlink" title="开通root登录SSH权限"></a>开通root登录SSH权限</h3><p>1， 使用普通用户登录后切换root</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo -i</span><br></pre></td></tr></table></figure>
+
+<p>2，创建root管理员密码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">passwd root</span><br></pre></td></tr></table></figure>
+
+<p>3，开启root登录</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo sed -i &#x27;s/^#?PermitRootLogin.*/PermitRootLogin yes/g&#x27; /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+
+<p>4，开启密码验证</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo sed -i &#x27;s/^#?PasswordAuthentication.*/PasswordAuthentication yes/g&#x27; /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+
+<p>5，重启ssh服务</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+
+<p>6，检查是否有ssh环境</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ps -e | grep ssh</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>————————————————<br>原文链接：<a href="https://syjn.blogspot.com/2023/08/openwrtvmwareubuntuopenwrtx96-max.html">https://syjn.blogspot.com/2023/08/openwrtvmwareubuntuopenwrtx96-max.html</a> 感谢！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/06/25/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
