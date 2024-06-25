@@ -144,16 +144,16 @@
 ]]></content>
   </entry>
   <entry>
+    <title>在Ubuntu上安装php7.2、php7.3、php7.4</title>
+    <url>/2024/06/25/%E5%9C%A8Ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85php7-2%E3%80%81php7-3%E3%80%81php7-4/</url>
+    <content><![CDATA[<p>一个大神写的，非常棒，地址分享如下：<br><a href="https://www.cnblogs.com/niuben/p/13329434.html">https://www.cnblogs.com/niuben/p/13329434.html</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
     <url>/2024/06/25/%E5%85%B3%E9%97%AD-%E2%80%9C%E8%8B%A5%E8%A6%81%E6%8E%A5%E6%94%B6%E5%90%8E%E7%BB%AD-google-chrome-%E6%9B%B4%E6%96%B0%E2%80%9D-%E7%9A%84%E6%8F%90%E9%86%92/</url>
     <content><![CDATA[<p>按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然<span id="more"></span>后双击SuppressUnsupportedOSWarning把数值数据改为1即可<br>完整目录就是HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Google&#x2F;Chrome。</p>
 <p>同样方式可以关闭edge浏览器的提醒，只是在HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Microsoft&#x2F;Edge目录里操作</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>在Ubuntu上安装php7.2、php7.3、php7.4</title>
-    <url>/2024/06/25/%E5%9C%A8Ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85php7-2%E3%80%81php7-3%E3%80%81php7-4/</url>
-    <content><![CDATA[<p>一个大神写的，非常棒，地址分享如下：<br><a href="https://www.cnblogs.com/niuben/p/13329434.html">https://www.cnblogs.com/niuben/p/13329434.html</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -215,14 +215,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>旧电脑打造成自己的Windows版NAS系统</title>
-    <url>/2024/06/25/%E6%97%A7%E7%94%B5%E8%84%91%E6%89%93%E9%80%A0%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84Windows%E7%89%88NAS%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p>纯属借鉴分享，感谢大佬！</p>
-<p>老电脑拿来这样用还是不错的，可以远程用来备份手机里的图片和电脑里的东西，远程也可以查<span id="more"></span>看，非常划算，当然有钱的另说，链接如下</p>
-<p><a href="https://blog.csdn.net/weixin_44786530/article/details/129685671">https://blog.csdn.net/weixin_44786530/article/details/129685671</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>服务端frps.ini配置文件</title>
     <url>/2024/06/25/%E6%9C%8D%E5%8A%A1%E7%AB%AFfrps-ini%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
     <content><![CDATA[<p>服务端frps.ini配置：</p>
@@ -278,6 +270,14 @@
 <p>检测是否启动</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ps auxw</span><br></pre></td></tr></table></figure>
 
+]]></content>
+  </entry>
+  <entry>
+    <title>旧电脑打造成自己的Windows版NAS系统</title>
+    <url>/2024/06/25/%E6%97%A7%E7%94%B5%E8%84%91%E6%89%93%E9%80%A0%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84Windows%E7%89%88NAS%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p>纯属借鉴分享，感谢大佬！</p>
+<p>老电脑拿来这样用还是不错的，可以远程用来备份手机里的图片和电脑里的东西，远程也可以查<span id="more"></span>看，非常划算，当然有钱的另说，链接如下</p>
+<p><a href="https://blog.csdn.net/weixin_44786530/article/details/129685671">https://blog.csdn.net/weixin_44786530/article/details/129685671</a></p>
 ]]></content>
   </entry>
 </search>
