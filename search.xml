@@ -5,6 +5,9 @@
     <url>/2024/06/25/Adobe-reader-%E6%88%96Adobe-acrobat-%E6%98%BE%E7%A4%BA%E2%80%9C%E6%AD%A3%E5%9C%A8%E5%87%86%E5%A4%87%E6%96%87%E6%A1%A3%E4%BB%A5%E4%BE%9B%E9%98%85%E8%AF%BB%E2%80%9D%E7%9A%84%E5%8F%96%E6%B6%88%E6%96%B9%E5%BC%8F/</url>
     <content><![CDATA[<p>找到文件安装目录C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\plug_ins里的Accessibility.api删除即可</p>
 ]]></content>
+      <tags>
+        <tag>Adobe-acrobat</tag>
+      </tags>
   </entry>
   <entry>
     <title>FRP服务端一键安装脚本</title>
@@ -38,6 +41,12 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">frps restart</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>内网穿透</category>
+      </categories>
+      <tags>
+        <tag>frp</tag>
+      </tags>
   </entry>
   <entry>
     <title>HEVC 图片视频扩展程序</title>
@@ -64,6 +73,12 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm set 102 -sata3 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS #其中ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS为相关硬盘的序号</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>虚拟机</category>
+      </categories>
+      <tags>
+        <tag>pve</tag>
+      </tags>
   </entry>
   <entry>
     <title>Ubuntu开通SSH和root登录方法</title>
@@ -111,6 +126,12 @@
 <hr>
 <p>————————————————<br>原文链接：<a href="https://syjn.blogspot.com/2023/08/openwrtvmwareubuntuopenwrtx96-max.html">https://syjn.blogspot.com/2023/08/openwrtvmwareubuntuopenwrtx96-max.html</a> 感谢！</p>
 ]]></content>
+      <categories>
+        <category>虚拟机</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
   </entry>
   <entry>
     <title>Windows下kiftd开机自启动</title>
@@ -122,6 +143,12 @@
 <p>2，在系统里配置这个bat文件开机启动，参考教程如下：<br><a href="https://blog.csdn.net/cal_room2032/article/details/106114622">https://blog.csdn.net/cal_room2032/article/details/106114622</a></p>
 <p>也可以写好bat文件放到开机启动文件夹里，方法如下：<br>1，同时按住WIN键加R键，弹出窗口输入shell:startup<br>2、把写好的bat开机启动文件复制到弹出的文件夹中即开机启动</p>
 ]]></content>
+      <categories>
+        <category>ftp</category>
+      </categories>
+      <tags>
+        <tag>kiftd</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -155,6 +182,9 @@
     <url>/2024/06/25/%E5%9C%A8Ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85php7-2%E3%80%81php7-3%E3%80%81php7-4/</url>
     <content><![CDATA[<p>一个大神写的，非常棒，地址分享如下：<br><a href="https://www.cnblogs.com/niuben/p/13329434.html">https://www.cnblogs.com/niuben/p/13329434.html</a></p>
 ]]></content>
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
   </entry>
   <entry>
     <title>客户端frpc.ini配置</title>
@@ -213,6 +243,12 @@
 <p>保存后放在C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp文件夹里既可自动启动<br>或通过win+R，打开运行，输入“shell:startup”，打开Windows启动文件夹，将.bat快捷文件粘贴到Windows启动文件夹中</p>
 <p>或编写.vbs脚本放到Windows启动文件夹里<br>1、编写.vbs脚本<br>set ws&#x3D;WScript.CreateObject(“WScript.Shell”)<br>ws.Run “D:\cs.bat &#x2F;start”,0<br>(注：①可以用txt文件编写然后再将.txt后缀修改为.vbs；②“D:\cs.bat ”为文件路径）<br>2、将vbs文件放到“启动”文件夹里（打开启动文件夹步骤同方法一）</p>
 ]]></content>
+      <categories>
+        <category>内网穿透</category>
+      </categories>
+      <tags>
+        <tag>frp</tag>
+      </tags>
   </entry>
   <entry>
     <title>旧电脑打造成自己的Windows版NAS系统</title>
@@ -221,6 +257,12 @@
 <p>老电脑拿来这样用还是不错的，可以远程用来备份手机里的图片和电脑里的东西，远程也可以查<span id="more"></span>看，非常划算，当然有钱的另说，链接如下</p>
 <p><a href="https://blog.csdn.net/weixin_44786530/article/details/129685671">https://blog.csdn.net/weixin_44786530/article/details/129685671</a></p>
 ]]></content>
+      <categories>
+        <category>nas</category>
+      </categories>
+      <tags>
+        <tag>旧电脑nas</tag>
+      </tags>
   </entry>
   <entry>
     <title>服务端frps.ini配置文件</title>
@@ -279,5 +321,11 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ps auxw</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>内网穿透</category>
+      </categories>
+      <tags>
+        <tag>frp</tag>
+      </tags>
   </entry>
 </search>
