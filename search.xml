@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Adobe reader 或Adobe acrobat 显示“正在准备文档以供阅读”的取消方式</title>
-    <url>/2024/06/25/Adobe-reader-%E6%88%96Adobe-acrobat-%E6%98%BE%E7%A4%BA%E2%80%9C%E6%AD%A3%E5%9C%A8%E5%87%86%E5%A4%87%E6%96%87%E6%A1%A3%E4%BB%A5%E4%BE%9B%E9%98%85%E8%AF%BB%E2%80%9D%E7%9A%84%E5%8F%96%E6%B6%88%E6%96%B9%E5%BC%8F/</url>
+    <url>/posts/19809.html</url>
     <content><![CDATA[<p>找到文件安装目录C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\plug_ins里的Accessibility.api删除即可</p>
 ]]></content>
       <tags>
@@ -11,7 +11,7 @@
   </entry>
   <entry>
     <title>FRP服务端一键安装脚本</title>
-    <url>/2024/06/25/FRP%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/</url>
+    <url>/posts/36634.html</url>
     <content><![CDATA[<p>FRP服务端一键安装脚本：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh</span><br><span class="line">chmod 700 ./install-frps.sh</span><br><span class="line">./install-frps.sh install</span><br></pre></td></tr></table></figure>
 
@@ -50,7 +50,7 @@
   </entry>
   <entry>
     <title>HEVC 图片视频扩展程序</title>
-    <url>/2024/06/25/HEVC-%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/</url>
+    <url>/posts/51381.html</url>
     <content><![CDATA[<p>HEVC 视频图片浏览下载地址：</p>
 <p><a href="http://r777t32407.zicp.fun/externalLinksController/downloadFileByKey/Microsoft.HEVCVideoExtension_2.0.61931.0_neutral_~_8wekyb3d8bbwe.AppxBundle?dkey=cc0cc2a9-817c-40cf-87ba-d22450775b8d">hevc下载</a></p>
 <p>下载<span id="more"></span>后安装</p>
@@ -59,7 +59,7 @@
   </entry>
   <entry>
     <title>Hexo-next主题如何添加动态背景</title>
-    <url>/2024/06/27/Hexo-next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF/</url>
+    <url>/posts/59765.html</url>
     <content><![CDATA[<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 使用 npm</span><br><span class="line">npm install --save canvas-nest.js</span><br></pre></td></tr></table></figure>
 
 <h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>修改_layout.njk，路径在\blog\zhangzz\themes\next\layout文件<span id="more"></span>夹内</p>
@@ -94,8 +94,28 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
+    <url>/posts/40339.html</url>
+    <content><![CDATA[<h3 id="按照abbrlink插件"><a href="#按照abbrlink插件" class="headerlink" title="按照abbrlink插件"></a>按照abbrlink插件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置-修改-config-yml配置文件"><a href="#配置-修改-config-yml配置文件" class="headerlink" title="配置 - 修改_config.yml配置文件"></a>配置 - 修改<code>_config.yml</code>配置文<span id="more"></span>件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/   #此处是默认，注释掉</span><br><span class="line">#permalink_defaults:         #此处是默认，也注释掉</span><br><span class="line">permalink: posts/:abbrlink.html  # 使用此处代替，也可以直接使用 :/abbrlink</span><br></pre></td></tr></table></figure>
+
+<h3 id="修改-config-next-yml配置文件，在尾部添加以下内容"><a href="#修改-config-next-yml配置文件，在尾部添加以下内容" class="headerlink" title="修改_config.next.yml配置文件，在尾部添加以下内容"></a>修改<code>_config.next.yml</code>配置文件，在尾部添加以下内容</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32 进制</span><br><span class="line">  rep: hex        #support dec(default) and hex  算法</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">     over_write: false </span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>然后运行以下代码测试效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>没问题的话就使用以下代码部署</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo博客搜索引擎优化</title>
-    <url>/2024/06/27/Hexo%E5%8D%9A%E5%AE%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/</url>
+    <url>/posts/57522.html</url>
     <content><![CDATA[<p><a href="https://pengtech.net/hexo/blog_seo_optimize">鹏叔的技术博客</a>上的内容，还没来的赢看，先收藏</p>
 ]]></content>
       <tags>
@@ -104,7 +124,7 @@
   </entry>
   <entry>
     <title>PVE虚拟系统黑群晖硬盘直通的方法</title>
-    <url>/2024/06/24/PVE%E8%99%9A%E6%8B%9F%E7%B3%BB%E7%BB%9F%E9%BB%91%E7%BE%A4%E6%99%96%E7%A1%AC%E7%9B%98%E7%9B%B4%E9%80%9A%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <url>/posts/10997.html</url>
     <content><![CDATA[<p>PVE虚拟系统黑群晖硬盘直通的方法：<br>点击PVE然后点击Shell，然后输入命令查看设备序列号，然后找到相关的硬盘设备复制下来设备号，再次输入直通命令来直通硬盘，相关命令如下：</p>
 <span id="more"></span>
 
@@ -127,7 +147,7 @@
   </entry>
   <entry>
     <title>Ubuntu开通SSH和root登录方法</title>
-    <url>/2024/06/24/Ubuntu%E5%BC%80%E9%80%9ASSH%E5%92%8Croot%E7%99%BB%E5%BD%95%E6%96%B9%E6%B3%95/</url>
+    <url>/posts/45054.html</url>
     <content><![CDATA[<h2 id="Ubuntu开通SSH和root登录方法"><a href="#Ubuntu开通SSH和root登录方法" class="headerlink" title="Ubuntu开通SSH和root登录方法"></a>Ubuntu开通SSH和root登录方法</h2><h3 id="Ubuntu开通SSH方法"><a href="#Ubuntu开通SSH方法" class="headerlink" title="Ubuntu开通SSH方法"></a>Ubuntu开通SSH方法</h3><p>开通SSH登录方法：<br>1，必须切换成为root用户</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo -i</span><br></pre></td></tr></table></figure>
 
@@ -180,7 +200,7 @@
   </entry>
   <entry>
     <title>Windows下kiftd开机自启动</title>
-    <url>/2024/06/25/Windows%E4%B8%8Bkiftd%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</url>
+    <url>/posts/17197.html</url>
     <content><![CDATA[<p>java -jar kiftd-1.1.0-RELEASE.jar -start</p>
 <p>1，用记事本写启动脚本，保存为bat文件，内容如<span id="more"></span>下</p>
 <p>d:<br>cd D:\Program Files\kiftd-v1.1.0-release<br>java -jar kiftd-1.1.0-RELEASE.jar -start</p>
@@ -197,7 +217,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2024/06/25/hello-world/</url>
+    <url>/posts/16107.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -217,14 +237,14 @@
   </entry>
   <entry>
     <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
-    <url>/2024/06/25/%E5%85%B3%E9%97%AD-%E2%80%9C%E8%8B%A5%E8%A6%81%E6%8E%A5%E6%94%B6%E5%90%8E%E7%BB%AD-google-chrome-%E6%9B%B4%E6%96%B0%E2%80%9D-%E7%9A%84%E6%8F%90%E9%86%92/</url>
+    <url>/posts/63835.html</url>
     <content><![CDATA[<p>按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然<span id="more"></span>后双击SuppressUnsupportedOSWarning把数值数据改为1即可<br>完整目录就是HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Google&#x2F;Chrome。</p>
 <p>同样方式可以关闭edge浏览器的提醒，只是在HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Microsoft&#x2F;Edge目录里操作</p>
 ]]></content>
   </entry>
   <entry>
     <title>在Ubuntu上安装php7.2、php7.3、php7.4</title>
-    <url>/2024/06/25/%E5%9C%A8Ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85php7-2%E3%80%81php7-3%E3%80%81php7-4/</url>
+    <url>/posts/45579.html</url>
     <content><![CDATA[<p>一个大神写的，非常棒，地址分享如下：<br><a href="https://www.cnblogs.com/niuben/p/13329434.html">https://www.cnblogs.com/niuben/p/13329434.html</a></p>
 ]]></content>
       <tags>
@@ -233,7 +253,7 @@
   </entry>
   <entry>
     <title>客户端frpc.ini配置</title>
-    <url>/2024/06/25/%E5%AE%A2%E6%88%B7%E7%AB%AFfrpc-ini%E9%85%8D%E7%BD%AE/</url>
+    <url>/posts/36108.html</url>
     <content><![CDATA[<p>linux里客户端frpc.ini配置<br>编辑服务器命令</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi frpc.ini</span><br></pre></td></tr></table></figure>
 
@@ -297,7 +317,7 @@
   </entry>
   <entry>
     <title>旧电脑打造成自己的Windows版NAS系统</title>
-    <url>/2024/06/25/%E6%97%A7%E7%94%B5%E8%84%91%E6%89%93%E9%80%A0%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84Windows%E7%89%88NAS%E7%B3%BB%E7%BB%9F/</url>
+    <url>/posts/8175.html</url>
     <content><![CDATA[<p>纯属借鉴分享，感谢大佬！</p>
 <p>老电脑拿来这样用还是不错的，可以远程用来备份手机里的图片和电脑里的东西，远程也可以查<span id="more"></span>看，非常划算，当然有钱的另说，链接如下</p>
 <p><a href="https://blog.csdn.net/weixin_44786530/article/details/129685671">https://blog.csdn.net/weixin_44786530/article/details/129685671</a></p>
@@ -311,7 +331,7 @@
   </entry>
   <entry>
     <title>服务端frps.ini配置文件</title>
-    <url>/2024/06/25/%E6%9C%8D%E5%8A%A1%E7%AB%AFfrps-ini%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
+    <url>/posts/38537.html</url>
     <content><![CDATA[<p>服务端frps.ini配置：</p>
 <p>编辑服务器命令</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi frps.ini</span><br></pre></td></tr></table></figure>

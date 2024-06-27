@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-06-27T13:54:22.096Z</updated>
+  <updated>2024-06-27T14:39:09.362Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
+    <link href="http://example.com/posts/40339.html"/>
+    <id>http://example.com/posts/40339.html</id>
+    <published>2024-06-27T14:32:23.000Z</published>
+    <updated>2024-06-27T14:39:09.362Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="按照abbrlink插件"><a href="#按照abbrlink插件" class="headerlink" title="按照abbrlink插件"></a>按照abbrlink插件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure><h3 id="配置-修改-config-yml配置文件"><a href="#配置-修改-config-yml配置文件" class="headerlink" title="配置 - 修改_config.yml配置文件"></a>配置 - 修改<code>_config.yml</code>配置文<span id="more"></span>件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/   #此处是默认，注释掉</span><br><span class="line">#permalink_defaults:         #此处是默认，也注释掉</span><br><span class="line">permalink: posts/:abbrlink.html  # 使用此处代替，也可以直接使用 :/abbrlink</span><br></pre></td></tr></table></figure><h3 id="修改-config-next-yml配置文件，在尾部添加以下内容"><a href="#修改-config-next-yml配置文件，在尾部添加以下内容" class="headerlink" title="修改_config.next.yml配置文件，在尾部添加以下内容"></a>修改<code>_config.next.yml</code>配置文件，在尾部添加以下内容</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32 进制</span><br><span class="line">  rep: hex        #support dec(default) and hex  算法</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">     over_write: false </span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>然后运行以下代码测试效果</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>没问题的话就使用以下代码部署</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;按照abbrlink插件&quot;&gt;&lt;a href=&quot;#按照abbrlink插件&quot; class=&quot;headerlink&quot; title=&quot;按照abbrlink插件&quot;&gt;&lt;/a&gt;按照abbrlink插件&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-abbrlink --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;配置-修改-config-yml配置文件&quot;&gt;&lt;a href=&quot;#配置-修改-config-yml配置文件&quot; class=&quot;headerlink&quot; title=&quot;配置 - 修改_config.yml配置文件&quot;&gt;&lt;/a&gt;配置 - 修改&lt;code&gt;_config.yml&lt;/code&gt;配置文</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo-next主题如何添加动态背景</title>
-    <link href="http://example.com/2024/06/27/Hexo-next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF/"/>
-    <id>http://example.com/2024/06/27/Hexo-next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF/</id>
+    <link href="http://example.com/posts/59765.html"/>
+    <id>http://example.com/posts/59765.html</id>
     <published>2024-06-27T13:39:07.000Z</published>
     <updated>2024-06-27T13:54:22.096Z</updated>
     
@@ -39,8 +60,8 @@
   
   <entry>
     <title>Hexo博客搜索引擎优化</title>
-    <link href="http://example.com/2024/06/27/Hexo%E5%8D%9A%E5%AE%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/"/>
-    <id>http://example.com/2024/06/27/Hexo%E5%8D%9A%E5%AE%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/</id>
+    <link href="http://example.com/posts/57522.html"/>
+    <id>http://example.com/posts/57522.html</id>
     <published>2024-06-27T12:12:19.000Z</published>
     <updated>2024-06-27T12:13:41.594Z</updated>
     
@@ -62,8 +83,8 @@
   
   <entry>
     <title>在Ubuntu上安装php7.2、php7.3、php7.4</title>
-    <link href="http://example.com/2024/06/25/%E5%9C%A8Ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85php7-2%E3%80%81php7-3%E3%80%81php7-4/"/>
-    <id>http://example.com/2024/06/25/%E5%9C%A8Ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85php7-2%E3%80%81php7-3%E3%80%81php7-4/</id>
+    <link href="http://example.com/posts/45579.html"/>
+    <id>http://example.com/posts/45579.html</id>
     <published>2024-06-25T13:53:23.000Z</published>
     <updated>2024-06-26T13:27:02.999Z</updated>
     
@@ -85,8 +106,8 @@
   
   <entry>
     <title>旧电脑打造成自己的Windows版NAS系统</title>
-    <link href="http://example.com/2024/06/25/%E6%97%A7%E7%94%B5%E8%84%91%E6%89%93%E9%80%A0%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84Windows%E7%89%88NAS%E7%B3%BB%E7%BB%9F/"/>
-    <id>http://example.com/2024/06/25/%E6%97%A7%E7%94%B5%E8%84%91%E6%89%93%E9%80%A0%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84Windows%E7%89%88NAS%E7%B3%BB%E7%BB%9F/</id>
+    <link href="http://example.com/posts/8175.html"/>
+    <id>http://example.com/posts/8175.html</id>
     <published>2024-06-25T13:51:51.000Z</published>
     <updated>2024-06-26T13:27:38.070Z</updated>
     
@@ -107,8 +128,8 @@
   
   <entry>
     <title>服务端frps.ini配置文件</title>
-    <link href="http://example.com/2024/06/25/%E6%9C%8D%E5%8A%A1%E7%AB%AFfrps-ini%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
-    <id>http://example.com/2024/06/25/%E6%9C%8D%E5%8A%A1%E7%AB%AFfrps-ini%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</id>
+    <link href="http://example.com/posts/38537.html"/>
+    <id>http://example.com/posts/38537.html</id>
     <published>2024-06-25T13:48:07.000Z</published>
     <updated>2024-06-26T13:26:31.860Z</updated>
     
@@ -132,8 +153,8 @@
   
   <entry>
     <title>FRP服务端一键安装脚本</title>
-    <link href="http://example.com/2024/06/25/FRP%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/"/>
-    <id>http://example.com/2024/06/25/FRP%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/</id>
+    <link href="http://example.com/posts/36634.html"/>
+    <id>http://example.com/posts/36634.html</id>
     <published>2024-06-25T13:45:17.000Z</published>
     <updated>2024-06-26T13:23:53.264Z</updated>
     
@@ -154,8 +175,8 @@
   
   <entry>
     <title>Windows下kiftd开机自启动</title>
-    <link href="http://example.com/2024/06/25/Windows%E4%B8%8Bkiftd%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/"/>
-    <id>http://example.com/2024/06/25/Windows%E4%B8%8Bkiftd%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</id>
+    <link href="http://example.com/posts/17197.html"/>
+    <id>http://example.com/posts/17197.html</id>
     <published>2024-06-25T12:31:18.000Z</published>
     <updated>2024-06-26T13:26:04.737Z</updated>
     
@@ -176,8 +197,8 @@
   
   <entry>
     <title>客户端frpc.ini配置</title>
-    <link href="http://example.com/2024/06/25/%E5%AE%A2%E6%88%B7%E7%AB%AFfrpc-ini%E9%85%8D%E7%BD%AE/"/>
-    <id>http://example.com/2024/06/25/%E5%AE%A2%E6%88%B7%E7%AB%AFfrpc-ini%E9%85%8D%E7%BD%AE/</id>
+    <link href="http://example.com/posts/36108.html"/>
+    <id>http://example.com/posts/36108.html</id>
     <published>2024-06-25T12:25:45.000Z</published>
     <updated>2024-06-26T13:26:46.017Z</updated>
     
@@ -200,8 +221,8 @@
   
   <entry>
     <title>HEVC 图片视频扩展程序</title>
-    <link href="http://example.com/2024/06/25/HEVC-%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/"/>
-    <id>http://example.com/2024/06/25/HEVC-%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/</id>
+    <link href="http://example.com/posts/51381.html"/>
+    <id>http://example.com/posts/51381.html</id>
     <published>2024-06-25T12:24:17.000Z</published>
     <updated>2024-06-25T12:35:11.454Z</updated>
     
@@ -219,8 +240,8 @@
   
   <entry>
     <title>Adobe reader 或Adobe acrobat 显示“正在准备文档以供阅读”的取消方式</title>
-    <link href="http://example.com/2024/06/25/Adobe-reader-%E6%88%96Adobe-acrobat-%E6%98%BE%E7%A4%BA%E2%80%9C%E6%AD%A3%E5%9C%A8%E5%87%86%E5%A4%87%E6%96%87%E6%A1%A3%E4%BB%A5%E4%BE%9B%E9%98%85%E8%AF%BB%E2%80%9D%E7%9A%84%E5%8F%96%E6%B6%88%E6%96%B9%E5%BC%8F/"/>
-    <id>http://example.com/2024/06/25/Adobe-reader-%E6%88%96Adobe-acrobat-%E6%98%BE%E7%A4%BA%E2%80%9C%E6%AD%A3%E5%9C%A8%E5%87%86%E5%A4%87%E6%96%87%E6%A1%A3%E4%BB%A5%E4%BE%9B%E9%98%85%E8%AF%BB%E2%80%9D%E7%9A%84%E5%8F%96%E6%B6%88%E6%96%B9%E5%BC%8F/</id>
+    <link href="http://example.com/posts/19809.html"/>
+    <id>http://example.com/posts/19809.html</id>
     <published>2024-06-25T12:23:21.000Z</published>
     <updated>2024-06-26T13:22:36.163Z</updated>
     
@@ -242,8 +263,8 @@
   
   <entry>
     <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
-    <link href="http://example.com/2024/06/25/%E5%85%B3%E9%97%AD-%E2%80%9C%E8%8B%A5%E8%A6%81%E6%8E%A5%E6%94%B6%E5%90%8E%E7%BB%AD-google-chrome-%E6%9B%B4%E6%96%B0%E2%80%9D-%E7%9A%84%E6%8F%90%E9%86%92/"/>
-    <id>http://example.com/2024/06/25/%E5%85%B3%E9%97%AD-%E2%80%9C%E8%8B%A5%E8%A6%81%E6%8E%A5%E6%94%B6%E5%90%8E%E7%BB%AD-google-chrome-%E6%9B%B4%E6%96%B0%E2%80%9D-%E7%9A%84%E6%8F%90%E9%86%92/</id>
+    <link href="http://example.com/posts/63835.html"/>
+    <id>http://example.com/posts/63835.html</id>
     <published>2024-06-25T12:20:58.000Z</published>
     <updated>2024-06-25T12:33:21.395Z</updated>
     
@@ -259,8 +280,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2024/06/25/hello-world/"/>
-    <id>http://example.com/2024/06/25/hello-world/</id>
+    <link href="http://example.com/posts/16107.html"/>
+    <id>http://example.com/posts/16107.html</id>
     <published>2024-06-25T12:09:49.562Z</published>
     <updated>2024-06-24T07:45:33.000Z</updated>
     
@@ -277,8 +298,8 @@
   
   <entry>
     <title>PVE虚拟系统黑群晖硬盘直通的方法</title>
-    <link href="http://example.com/2024/06/24/PVE%E8%99%9A%E6%8B%9F%E7%B3%BB%E7%BB%9F%E9%BB%91%E7%BE%A4%E6%99%96%E7%A1%AC%E7%9B%98%E7%9B%B4%E9%80%9A%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>http://example.com/2024/06/24/PVE%E8%99%9A%E6%8B%9F%E7%B3%BB%E7%BB%9F%E9%BB%91%E7%BE%A4%E6%99%96%E7%A1%AC%E7%9B%98%E7%9B%B4%E9%80%9A%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <link href="http://example.com/posts/10997.html"/>
+    <id>http://example.com/posts/10997.html</id>
     <published>2024-06-24T07:31:46.000Z</published>
     <updated>2024-06-26T13:25:00.269Z</updated>
     
@@ -298,8 +319,8 @@
   
   <entry>
     <title>Ubuntu开通SSH和root登录方法</title>
-    <link href="http://example.com/2024/06/24/Ubuntu%E5%BC%80%E9%80%9ASSH%E5%92%8Croot%E7%99%BB%E5%BD%95%E6%96%B9%E6%B3%95/"/>
-    <id>http://example.com/2024/06/24/Ubuntu%E5%BC%80%E9%80%9ASSH%E5%92%8Croot%E7%99%BB%E5%BD%95%E6%96%B9%E6%B3%95/</id>
+    <link href="http://example.com/posts/45054.html"/>
+    <id>http://example.com/posts/45054.html</id>
     <published>2024-06-24T07:27:23.000Z</published>
     <updated>2024-06-26T13:25:28.991Z</updated>
     
