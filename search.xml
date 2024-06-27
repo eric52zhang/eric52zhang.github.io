@@ -58,6 +58,51 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Hexo-next主题如何添加动态背景</title>
+    <url>/2024/06/27/Hexo-next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF/</url>
+    <content><![CDATA[<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 使用 npm</span><br><span class="line">npm install --save canvas-nest.js</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>修改_layout.njk，路径在\blog\zhangzz\themes\next\layout文件<span id="more"></span>夹内</p>
+<p>在<code>&lt; /body&gt;</code>之前添加以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>根目录打开_config.next.yml，在里面添加如下代码：(可以放在最后面)</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># --------------------------------------------------------------</span><br><span class="line"># background settings</span><br><span class="line"># --------------------------------------------------------------</span><br><span class="line"># add canvas-nest effect</span><br><span class="line"># see detail from https://github.com/hustcc/canvas-nest.js</span><br><span class="line">canvas_nest: true</span><br></pre></td></tr></table></figure>
+
+<p>然后运行以下代码看效果看效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<h3 id="如果感觉线条太细，可以按以下改粗一些"><a href="#如果感觉线条太细，可以按以下改粗一些" class="headerlink" title="如果感觉线条太细，可以按以下改粗一些"></a>如果感觉线条太细，可以按以下改粗一些</h3><p>把_layout.njk里的以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot;</span><br><span class="line">color=&quot;0,0,255&quot; opacity=&#x27;0.7&#x27; zIndex=&quot;-2&quot; count=&quot;99&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后再运行以下代码看效果看效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置项说明"><a href="#配置项说明" class="headerlink" title="配置项说明"></a>配置项说明</h3><ul>
+<li><code>color</code> ：线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)</li>
+<li><code>opacity</code>: 线条透明度（0~1）, 默认: <code>0.5</code></li>
+<li><code>count</code>: 线条的总数量, 默认: <code>150</code></li>
+<li><code>zIndex:</code> 背景的z-index属性，css属性用于控制所在层的位置, 默认: <code>-1</code></li>
+</ul>
+<p>原教程地址：<a href="http://shenzekun.cn/hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF.html">Moorez</a>，感谢大佬！！</p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo博客搜索引擎优化</title>
+    <url>/2024/06/27/Hexo%E5%8D%9A%E5%AE%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<p><a href="https://pengtech.net/hexo/blog_seo_optimize">鹏叔的技术博客</a>上的内容，还没来的赢看，先收藏</p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PVE虚拟系统黑群晖硬盘直通的方法</title>
     <url>/2024/06/24/PVE%E8%99%9A%E6%8B%9F%E7%B3%BB%E7%BB%9F%E9%BB%91%E7%BE%A4%E6%99%96%E7%A1%AC%E7%9B%98%E7%9B%B4%E9%80%9A%E7%9A%84%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<p>PVE虚拟系统黑群晖硬盘直通的方法：<br>点击PVE然后点击Shell，然后输入命令查看设备序列号，然后找到相关的硬盘设备复制下来设备号，再次输入直通命令来直通硬盘，相关命令如下：</p>
