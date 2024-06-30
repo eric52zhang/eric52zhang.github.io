@@ -58,6 +58,28 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
+    <url>/posts/40339.html</url>
+    <content><![CDATA[<img data-src="https://wx3.sinaimg.cn/large/63adf688ly4gnzz1dtpo9j20m80ciacm.jpg" width = 100% height= 200>
+
+<h3 id="按照abbrlink插件"><a href="#按照abbrlink插件" class="headerlink" title="按照abbrlink插件"></a>按照abbrlink插件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置-修改-config-yml配置文件"><a href="#配置-修改-config-yml配置文件" class="headerlink" title="配置 - 修改_config.yml配置文件"></a>配置 - 修改<code>_config.yml</code>配置文<span id="more"></span>件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/   #此处是默认，注释掉</span><br><span class="line">#permalink_defaults:         #此处是默认，也注释掉</span><br><span class="line">permalink: posts/:abbrlink.html  # 使用此处代替，也可以直接使用 :/abbrlink</span><br></pre></td></tr></table></figure>
+
+<h3 id="修改-config-next-yml配置文件，在尾部添加以下内容"><a href="#修改-config-next-yml配置文件，在尾部添加以下内容" class="headerlink" title="修改_config.next.yml配置文件，在尾部添加以下内容"></a>修改<code>_config.next.yml</code>配置文件，在尾部添加以下内容</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32 进制</span><br><span class="line">  rep: hex        #support dec(default) and hex  算法</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">     over_write: false </span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>然后运行以下代码测试效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>没问题的话就使用以下代码部署</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo-next主题如何添加动态背景</title>
     <url>/posts/59765.html</url>
     <content><![CDATA[<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 使用 npm</span><br><span class="line">npm install --save canvas-nest.js</span><br></pre></td></tr></table></figure>
@@ -94,23 +116,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
-    <url>/posts/40339.html</url>
-    <content><![CDATA[<h3 id="按照abbrlink插件"><a href="#按照abbrlink插件" class="headerlink" title="按照abbrlink插件"></a>按照abbrlink插件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+    <title>Hexo-next添加点击显示爱心功能</title>
+    <url>/posts/10103.html</url>
+    <content><![CDATA[<h4 id="1，在这个-blog-zhangzz-themes-next-source-js文件夹新建文件click-love-js，粘贴一下代码："><a href="#1，在这个-blog-zhangzz-themes-next-source-js文件夹新建文件click-love-js，粘贴一下代码：" class="headerlink" title="1，在这个\blog\zhangzz\themes\next\source\js文件夹新建文件click_love.js，粘贴一下代码："></a>1，在这个\blog\zhangzz\themes\next\source\js文件夹新建文件click_love.js，粘贴一下代<span id="more"></span>码：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//点击显示爱心功能</span><br><span class="line">!(function (e, t, a) &#123;</span><br><span class="line">  function n() &#123;</span><br><span class="line">    c(</span><br><span class="line">      &quot;.heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: &#x27;&#x27;;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;&quot;</span><br><span class="line">    ),</span><br><span class="line">      o(),</span><br><span class="line">      r()</span><br><span class="line">  &#125;</span><br><span class="line">  function r() &#123;</span><br><span class="line">    for (var e = 0; e &lt; d.length; e++)</span><br><span class="line">      d[e].alpha &lt;= 0</span><br><span class="line">        ? (t.body.removeChild(d[e].el), d.splice(e, 1))</span><br><span class="line">        : (d[e].y--,</span><br><span class="line">          (d[e].scale += 0.004),</span><br><span class="line">          (d[e].alpha -= 0.013),</span><br><span class="line">          (d[e].el.style.cssText =</span><br><span class="line">            &#x27;left:&#x27; +</span><br><span class="line">            d[e].x +</span><br><span class="line">            &#x27;px;top:&#x27; +</span><br><span class="line">            d[e].y +</span><br><span class="line">            &#x27;px;opacity:&#x27; +</span><br><span class="line">            d[e].alpha +</span><br><span class="line">            &#x27;;transform:scale(&#x27; +</span><br><span class="line">            d[e].scale +</span><br><span class="line">            &#x27;,&#x27; +</span><br><span class="line">            d[e].scale +</span><br><span class="line">            &#x27;) rotate(45deg);background:&#x27; +</span><br><span class="line">            d[e].color +</span><br><span class="line">            &#x27;;z-index:99999&#x27;))</span><br><span class="line">    requestAnimationFrame(r)</span><br><span class="line">  &#125;</span><br><span class="line">  function o() &#123;</span><br><span class="line">    var t = &#x27;function&#x27; == typeof e.onclick &amp;&amp; e.onclick</span><br><span class="line">    e.onclick = function (e) &#123;</span><br><span class="line">      t &amp;&amp; t(), i(e)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  function i(e) &#123;</span><br><span class="line">    var a = t.createElement(&#x27;div&#x27;)</span><br><span class="line">    ;(a.className = &#x27;heart&#x27;),</span><br><span class="line">      d.push(&#123;</span><br><span class="line">        el: a,</span><br><span class="line">        x: e.clientX - 5,</span><br><span class="line">        y: e.clientY - 5,</span><br><span class="line">        scale: 1,</span><br><span class="line">        alpha: 1,</span><br><span class="line">        color: s(),</span><br><span class="line">      &#125;),</span><br><span class="line">      t.body.appendChild(a)</span><br><span class="line">  &#125;</span><br><span class="line">  function c(e) &#123;</span><br><span class="line">    var a = t.createElement(&#x27;style&#x27;)</span><br><span class="line">    a.type = &#x27;text/css&#x27;</span><br><span class="line">    try &#123;</span><br><span class="line">      a.appendChild(t.createTextNode(e))</span><br><span class="line">    &#125; catch (t) &#123;</span><br><span class="line">      a.styleSheet.cssText = e</span><br><span class="line">    &#125;</span><br><span class="line">    t.getElementsByTagName(&#x27;head&#x27;)[0].appendChild(a)</span><br><span class="line">  &#125;</span><br><span class="line">  function s() &#123;</span><br><span class="line">    return (</span><br><span class="line">      &#x27;rgb(&#x27; +</span><br><span class="line">      ~~(255 * Math.random()) +</span><br><span class="line">      &#x27;,&#x27; +</span><br><span class="line">      ~~(255 * Math.random()) +</span><br><span class="line">      &#x27;,&#x27; +</span><br><span class="line">      ~~(255 * Math.random()) +</span><br><span class="line">      &#x27;)&#x27;</span><br><span class="line">    )</span><br><span class="line">  &#125;</span><br><span class="line">  var d = []</span><br><span class="line">  ;(e.requestAnimationFrame = (function () &#123;</span><br><span class="line">    return (</span><br><span class="line">      e.requestAnimationFrame ||</span><br><span class="line">      e.webkitRequestAnimationFrame ||</span><br><span class="line">      e.mozRequestAnimationFrame ||</span><br><span class="line">      e.oRequestAnimationFrame ||</span><br><span class="line">      e.msRequestAnimationFrame ||</span><br><span class="line">      function (e) &#123;</span><br><span class="line">        setTimeout(e, 1e3 / 60)</span><br><span class="line">      &#125;</span><br><span class="line">    )</span><br><span class="line">  &#125;)()),</span><br><span class="line">    n()</span><br><span class="line">&#125;)(window, document)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h3 id="配置-修改-config-yml配置文件"><a href="#配置-修改-config-yml配置文件" class="headerlink" title="配置 - 修改_config.yml配置文件"></a>配置 - 修改<code>_config.yml</code>配置文<span id="more"></span>件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/   #此处是默认，注释掉</span><br><span class="line">#permalink_defaults:         #此处是默认，也注释掉</span><br><span class="line">permalink: posts/:abbrlink.html  # 使用此处代替，也可以直接使用 :/abbrlink</span><br></pre></td></tr></table></figure>
+<h4 id="2，在这个-blog-zhangzz-themes-next-layout文件内打开-layout-njk，在最后背粘贴以下内容："><a href="#2，在这个-blog-zhangzz-themes-next-layout文件内打开-layout-njk，在最后背粘贴以下内容：" class="headerlink" title="2，在这个\blog\zhangzz\themes\next\layout文件内打开_layout.njk，在最后背粘贴以下内容："></a>2，在这个\blog\zhangzz\themes\next\layout文件内打开_layout.njk，在最后背粘贴以下内容：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/js/click_love.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<h3 id="修改-config-next-yml配置文件，在尾部添加以下内容"><a href="#修改-config-next-yml配置文件，在尾部添加以下内容" class="headerlink" title="修改_config.next.yml配置文件，在尾部添加以下内容"></a>修改<code>_config.next.yml</code>配置文件，在尾部添加以下内容</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32 进制</span><br><span class="line">  rep: hex        #support dec(default) and hex  算法</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">     over_write: false </span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>然后运行以下代码测试效果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<p>没问题的话就使用以下代码部署</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<h4 id="3，执行以下代码看效果"><a href="#3，执行以下代码看效果" class="headerlink" title="3，执行以下代码看效果"></a>3，执行以下代码看效果</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>Next</tag>
+        <tag>Hexo-next</tag>
       </tags>
   </entry>
   <entry>
@@ -120,6 +141,48 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PVE扩容和直通代码及硬盘直通</title>
+    <url>/posts/31267.html</url>
+    <content><![CDATA[<h4 id="一、PVE-扩容命令（这一步可以不做）"><a href="#一、PVE-扩容命令（这一步可以不做）" class="headerlink" title="一、PVE 扩容命令（这一步可以不做）"></a>一、PVE 扩容命令（这一步可以不做）</h4><h5 id="1、删除local-lvm"><a href="#1、删除local-lvm" class="headerlink" title="1、删除local-lvm"></a>1、删除local-lvm</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lvremove pve/data  #回车 【 y 】确认</span><br></pre></td></tr></table></figure>
+
+<h5 id="2、把local-lvm存储空间分配给local"><a href="#2、把local-lvm存储空间分配给local" class="headerlink" title="2、把local-lvm存储空间分配给local"></a>2、把local-lvm存储空间分配给local<span id="more"></span></h5><figure class="highlight plaintext"><figcaption><span>pve/data  #回车 【 y 】确认</span></figcaption><table><tr><td class="code"><pre><span class="line">lvextend -l +100%FREE -r pve/root</span><br><span class="line">resize2fs /dev/mapper/pve-root</span><br></pre></td></tr></table></figure>
+
+<h4 id="二、网卡直通"><a href="#二、网卡直通" class="headerlink" title="二、网卡直通"></a>二、网卡直通</h4><h5 id="1、打开PVE节点的shell，输入命令："><a href="#1、打开PVE节点的shell，输入命令：" class="headerlink" title="1、打开PVE节点的shell，输入命令："></a>1、打开PVE节点的shell，输入命令：</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nano /etc/default/grub</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet&quot;</span><br><span class="line">改为：</span><br><span class="line">GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet intel_iommu=on video=efifb:off&quot;</span><br><span class="line">编辑完文件后按 【 Ctrl + X 】 【  Y  】  回车 </span><br><span class="line">update-grub</span><br></pre></td></tr></table></figure>
+
+<h5 id="2、继续输入以下命令"><a href="#2、继续输入以下命令" class="headerlink" title="2、继续输入以下命令"></a>2、继续输入以下命令</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nano /etc/modules</span><br></pre></td></tr></table></figure>
+
+<p>在文件下面添加新内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vfio</span><br><span class="line">vfio_iommu_type1</span><br><span class="line">vfio_pci</span><br><span class="line">vfio_virqfd</span><br></pre></td></tr></table></figure>
+
+<p>编辑完文件后按【 Ctrl + X 】 【  Y  】  回车 </p>
+<h5 id="3、最后更新配置信息并重启PVE主机"><a href="#3、最后更新配置信息并重启PVE主机" class="headerlink" title="3、最后更新配置信息并重启PVE主机"></a>3、最后更新配置信息并重启PVE主机</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">update-grub</span><br><span class="line">update-initramfs -u -k all</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure>
+
+<h4 id="三、安装img镜像格式需要通过代码安装"><a href="#三、安装img镜像格式需要通过代码安装" class="headerlink" title="三、安装img镜像格式需要通过代码安装"></a>三、安装img镜像格式需要通过代码安装</h4><h5 id="1，qm-importdisk-101（虚拟机号牌）-文件路径-local-PVE扩容才用这个命令"><a href="#1，qm-importdisk-101（虚拟机号牌）-文件路径-local-PVE扩容才用这个命令" class="headerlink" title="1，qm importdisk 101（虚拟机号牌） 文件路径  local   #PVE扩容才用这个命令"></a>1，qm importdisk 101（虚拟机号牌） 文件路径  local   #PVE扩容才用这个命令</h5><p>例如OpenWrt文件路径:&#x2F;var&#x2F;lib&#x2F;vz&#x2F;template&#x2F;iso&#x2F;password_openwrt-x86-64-efi.img，输入以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm importdisk 101 /var/lib/vz/template/iso/password_openwrt-x86-64-efi.img local</span><br></pre></td></tr></table></figure>
+
+<h5 id="2，qm-importdisk-101（虚拟机号牌）-文件路径-local-第一布PVE没扩容的话用这个命令"><a href="#2，qm-importdisk-101（虚拟机号牌）-文件路径-local-第一布PVE没扩容的话用这个命令" class="headerlink" title="2，qm importdisk 101（虚拟机号牌） 文件路径  local   #第一布PVE没扩容的话用这个命令"></a>2，qm importdisk 101（虚拟机号牌） 文件路径  local   #第一布PVE没扩容的话用这个命令</h5><p>例如OpenWrt文件路径:&#x2F;var&#x2F;lib&#x2F;vz&#x2F;template&#x2F;iso&#x2F;password_openwrt-x86-64-efi.img，输入以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm importdisk 101 /var/lib/vz/template/iso/password_openwrt-x86-64-efi.img local-lvm</span><br></pre></td></tr></table></figure>
+
+<h4 id="四、硬盘直通"><a href="#四、硬盘直通" class="headerlink" title="四、硬盘直通"></a>四、硬盘直通</h4><h5 id="A-用finalshell登录PVE，输入以下命令"><a href="#A-用finalshell登录PVE，输入以下命令" class="headerlink" title="A, 用finalshell登录PVE，输入以下命令"></a>A, 用finalshell登录PVE，输入以下命令</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ls /dev/disk/by-id</span><br></pre></td></tr></table></figure>
+
+<h5 id="B-找到未使用硬盘的ID"><a href="#B-找到未使用硬盘的ID" class="headerlink" title="B, 找到未使用硬盘的ID"></a>B, 找到未使用硬盘的ID</h5><h6 id="1，西数4T硬盘1，完成后显示sata2"><a href="#1，西数4T硬盘1，完成后显示sata2" class="headerlink" title="1，西数4T硬盘1，完成后显示sata2"></a>1，西数4T硬盘1，完成后显示sata2</h6><p>ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ<br>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm set 102 -sata2 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ</span><br></pre></td></tr></table></figure>
+
+<h6 id="2，西数4T硬盘2，完成后显示sata3"><a href="#2，西数4T硬盘2，完成后显示sata3" class="headerlink" title="2，西数4T硬盘2，完成后显示sata3"></a>2，西数4T硬盘2，完成后显示sata3</h6><p>ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS</p>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm set 102 -sata3 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS</span><br></pre></td></tr></table></figure>
+
+<h6 id="3，东芝14T硬盘，完成后显示sata4"><a href="#3，东芝14T硬盘，完成后显示sata4" class="headerlink" title="3，东芝14T硬盘，完成后显示sata4"></a>3，东芝14T硬盘，完成后显示sata4</h6><p>ata-TOSHIBA_MG07ACA14TE_2170A04PF94G<br>然后输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">qm set 102 -sata4 /dev/disk/by-id/ata-TOSHIBA_MG07ACA14TE_2170A04PF94G</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>PVE</tag>
       </tags>
   </entry>
   <entry>
@@ -236,6 +299,26 @@
 ]]></content>
   </entry>
   <entry>
+    <title>idm序列号永久激活码2024</title>
+    <url>/posts/58955.html</url>
+    <content><![CDATA[<p>idm序列号永久激活码2024：</p>
+<p>TUTR2-i2nHo-GQBC6-ZECwH</p>
+<p>3ZV2M-XQVN1-H0AMJ-B1MRX</p>
+<span id="more"></span>
+<p>56ECU-E6CY3-FMNLR-ZA787</p>
+<p>5505O-M38P8-NHRL2-XAKWJ</p>
+<p>KCC05-BJ2L2-ZM95G-6SFJ4</p>
+<p>1QK5Z-4EQIM-XH4RD-BLXKT</p>
+<p>TGG94-HRKYT-NIE2X-8A9MT</p>
+<p>NCU51-ZEXKM-414SK-HM247</p>
+<p>83NFH-WM0FW-GJRQ3-WQ8HL</p>
+<p>A3RJ1-3X8AT-85C48-ET4YN</p>
+]]></content>
+      <tags>
+        <tag>idm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
     <url>/posts/63835.html</url>
     <content><![CDATA[<p>按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然<span id="more"></span>后双击SuppressUnsupportedOSWarning把数值数据改为1即可<br>完整目录就是HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Google&#x2F;Chrome。</p>
@@ -313,6 +396,18 @@
       </categories>
       <tags>
         <tag>frp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>收藏的Windows操作系统和软件网</title>
+    <url>/posts/20897.html</url>
+    <content><![CDATA[<p>纯净系统下载网站<br><a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a><br><a href="https://hellowindows.cn/">https://hellowindows.cn/</a><span id="more"></span><br><a href="https://latest10.win/">https://latest10.win/</a><br><a href="https://www.sysmini.com/">https://www.sysmini.com/</a><br><a href="https://msdn.sjjzm.com/win10.html">https://msdn.sjjzm.com/win10.html</a><br><a href="https://www.newxitong.com/">https://www.newxitong.com/</a></p>
+<p>软件下载网站：<br><a href="https://www.hezibuluo.com/">https://www.hezibuluo.com/</a></p>
+<p>油小猴（插件网站）<br><a href="https://www.youxiaohou.com/">https://www.youxiaohou.com/</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>纯净系统</tag>
       </tags>
   </entry>
   <entry>
