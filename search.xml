@@ -58,28 +58,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
-    <url>/posts/40339.html</url>
-    <content><![CDATA[<img data-src="https://wx3.sinaimg.cn/large/63adf688ly4gnzz1dtpo9j20m80ciacm.jpg" width = 100% height= 200>
-
-<h3 id="按照abbrlink插件"><a href="#按照abbrlink插件" class="headerlink" title="按照abbrlink插件"></a>按照abbrlink插件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-
-<h3 id="配置-修改-config-yml配置文件"><a href="#配置-修改-config-yml配置文件" class="headerlink" title="配置 - 修改_config.yml配置文件"></a>配置 - 修改<code>_config.yml</code>配置文<span id="more"></span>件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/   #此处是默认，注释掉</span><br><span class="line">#permalink_defaults:         #此处是默认，也注释掉</span><br><span class="line">permalink: posts/:abbrlink.html  # 使用此处代替，也可以直接使用 :/abbrlink</span><br></pre></td></tr></table></figure>
-
-<h3 id="修改-config-next-yml配置文件，在尾部添加以下内容"><a href="#修改-config-next-yml配置文件，在尾部添加以下内容" class="headerlink" title="修改_config.next.yml配置文件，在尾部添加以下内容"></a>修改<code>_config.next.yml</code>配置文件，在尾部添加以下内容</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32 进制</span><br><span class="line">  rep: hex        #support dec(default) and hex  算法</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">     over_write: false </span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>然后运行以下代码测试效果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<p>没问题的话就使用以下代码部署</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo-next主题如何添加动态背景</title>
     <url>/posts/59765.html</url>
     <content><![CDATA[<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 使用 npm</span><br><span class="line">npm install --save canvas-nest.js</span><br></pre></td></tr></table></figure>
@@ -110,6 +88,28 @@
 <li><code>zIndex:</code> 背景的z-index属性，css属性用于控制所在层的位置, 默认: <code>-1</code></li>
 </ul>
 <p>原教程地址：<a href="http://shenzekun.cn/hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF.html">Moorez</a>，感谢大佬！！</p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
+    <url>/posts/40339.html</url>
+    <content><![CDATA[<img data-src="https://wx3.sinaimg.cn/large/63adf688ly4gnzz1dtpo9j20m80ciacm.jpg" width = 100% height= 200>
+
+<h3 id="按照abbrlink插件"><a href="#按照abbrlink插件" class="headerlink" title="按照abbrlink插件"></a>按照abbrlink插件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置-修改-config-yml配置文件"><a href="#配置-修改-config-yml配置文件" class="headerlink" title="配置 - 修改_config.yml配置文件"></a>配置 - 修改<code>_config.yml</code>配置文<span id="more"></span>件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/   #此处是默认，注释掉</span><br><span class="line">#permalink_defaults:         #此处是默认，也注释掉</span><br><span class="line">permalink: posts/:abbrlink.html  # 使用此处代替，也可以直接使用 :/abbrlink</span><br></pre></td></tr></table></figure>
+
+<h3 id="修改-config-next-yml配置文件，在尾部添加以下内容"><a href="#修改-config-next-yml配置文件，在尾部添加以下内容" class="headerlink" title="修改_config.next.yml配置文件，在尾部添加以下内容"></a>修改<code>_config.next.yml</code>配置文件，在尾部添加以下内容</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32 进制</span><br><span class="line">  rep: hex        #support dec(default) and hex  算法</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">     over_write: false </span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>然后运行以下代码测试效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>没问题的话就使用以下代码部署</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <tags>
         <tag>Hexo</tag>
