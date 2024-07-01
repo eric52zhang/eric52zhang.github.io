@@ -299,6 +299,13 @@
 ]]></content>
   </entry>
   <entry>
+    <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
+    <url>/posts/63835.html</url>
+    <content><![CDATA[<p>按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然<span id="more"></span>后双击SuppressUnsupportedOSWarning把数值数据改为1即可<br>完整目录就是HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Google&#x2F;Chrome。</p>
+<p>同样方式可以关闭edge浏览器的提醒，只是在HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Microsoft&#x2F;Edge目录里操作</p>
+]]></content>
+  </entry>
+  <entry>
     <title>idm序列号永久激活码2024</title>
     <url>/posts/58955.html</url>
     <content><![CDATA[<p>idm序列号永久激活码2024：</p>
@@ -317,13 +324,6 @@
       <tags>
         <tag>idm</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
-    <url>/posts/63835.html</url>
-    <content><![CDATA[<p>按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然<span id="more"></span>后双击SuppressUnsupportedOSWarning把数值数据改为1即可<br>完整目录就是HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Google&#x2F;Chrome。</p>
-<p>同样方式可以关闭edge浏览器的提醒，只是在HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Microsoft&#x2F;Edge目录里操作</p>
-]]></content>
   </entry>
   <entry>
     <title>在Ubuntu上安装php7.2、php7.3、php7.4</title>
