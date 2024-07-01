@@ -1,4 +1,3 @@
-//点击时显示爱心
 !(function (e, t, a) {
   function n() {
     c(
