@@ -1473,7 +1473,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #396373;
+    background: #1214ff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3205,7 +3205,7 @@ body {
   color: #000;
 }
 .posts-expand .post-meta-container {
-  color: #800080;
+  color: #f00;
 }
 .header-inner {
   background: rgba(255,255,255,0.8);
@@ -3217,13 +3217,10 @@ body {
   opacity: 1;
 }
 .main-inner {
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.7);
   padding: 0px 15px 15px 15px;
 }
 .footer {
   font-size: 14px;
-  color: var(--bg);
-}
-.footer p {
-  color: #f00;
+  color: #fff;
 }
