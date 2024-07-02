@@ -1473,7 +1473,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #f5ff0d;
+    background: #ff0b94;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3223,4 +3223,12 @@ body {
 .footer {
   font-size: 14px;
   color: #fff;
+}
+code {
+  padding: 2px 4px;
+  overflow-wrap: break-word;
+  color: #c7254e;
+  background: #f9f2f4;
+  border-radius: 3px;
+  font-size: 18px;
 }

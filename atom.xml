@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-06-30T04:37:03.882Z</updated>
+  <updated>2024-07-02T14:26:28.091Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo教程相关网址备份</title>
+    <link href="http://example.com/posts/61476.html"/>
+    <id>http://example.com/posts/61476.html</id>
+    <published>2024-07-02T13:50:16.000Z</published>
+    <updated>2024-07-02T14:26:28.091Z</updated>
+    
+    <content type="html"><![CDATA[<p>1，next主教程</p><p><a href="https://theme-next.iissnan.com/getting-started.html">https://theme-next.iissnan.com/getting-started.html</a></p><p>2，Hexo之Next主题美化代码</p><p><a href="https://cloud.tencent.com/developer/article/2201625">https://cloud.tencent.com/developer/article/2201625</a><span id="more"></span></p><p>3，next文章样式美化</p><p><a href="https://marmalade.vip/nextthemebeautify3.html">https://marmalade.vip/nextthemebeautify3.html</a></p><p>4，在每篇文章末尾添加“本文结束”标记；添加文章置顶功能</p><p><a href="https://marmalade.vip/nextthemebeautify1.html">https://marmalade.vip/nextthemebeautify1.html</a></p><p>5，RGB颜色值与十六进制颜色码转换工具</p><p><a href="https://www.sioe.cn/yingyong/yanse-rgb-16/">https://www.sioe.cn/yingyong/yanse-rgb-16/</a></p><p>6，NexT 行内代码背景颜色设置</p><p><a href="https://zengfanyongcn.github.io/2022/04/17/code-background/">https://zengfanyongcn.github.io/2022/04/17/code-background/</a></p><p>7，next主题highlight的对应效果</p><p><a href="https://theme-next.js.org/highlight/">https://theme-next.js.org/highlight/</a></p><p>8，next主题官网</p><p><a href="https://theme-next.js.org/">https://theme-next.js.org/</a></p><p>9，NexT 主题自定义侧边栏图标</p><p><a href="https://zengfanyongcn.github.io/2022/04/20/NexT-sidebar-icon/">https://zengfanyongcn.github.io/2022/04/20/NexT-sidebar-icon/</a></p><p><a href="https://zengfanyongcn.github.io/2022/04/15/NexT-config/">https://zengfanyongcn.github.io/2022/04/15/NexT-config/</a></p><p>10，代码高亮</p><p><a href="https://hexo.io/zh-cn/docs/syntax-highlight.html">https://hexo.io/zh-cn/docs/syntax-highlight.html</a></p><p>11，Hexo主页</p><p><a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;1，next主教程&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://theme-next.iissnan.com/getting-started.html&quot;&gt;https://theme-next.iissnan.com/getting-started.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2，Hexo之Next主题美化代码&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.tencent.com/developer/article/2201625&quot;&gt;https://cloud.tencent.com/developer/article/2201625&lt;/a&gt;</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="Hexo-next" scheme="http://example.com/tags/Hexo-next/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo-next添加点击显示爱心功能</title>
