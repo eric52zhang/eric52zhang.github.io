@@ -596,6 +596,13 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/%E6%97%A7%E7%94%B5%E8%84%91nas/</loc>
+    <lastmod>2024-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/wireguard-VPN/</loc>
     <lastmod>2024-08-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -611,13 +618,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/VPN/</loc>
-    <lastmod>2024-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E6%97%A7%E7%94%B5%E8%84%91nas/</loc>
     <lastmod>2024-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -710,14 +710,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/VPN/</loc>
+    <loc>https://blog.camelz.site/categories/nas/</loc>
     <lastmod>2024-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/nas/</loc>
+    <loc>https://blog.camelz.site/categories/VPN/</loc>
     <lastmod>2024-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
