@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>駝駱仧🐫</title>
+  <title>AK-2G</title>
   
   <subtitle>没事瞎胡搞，越搞越明了🌤</subtitle>
-  <link href="https://blog.camelz.site/atom.xml" rel="self"/>
+  <link href="https://blog.7306923.xyz/atom.xml" rel="self"/>
   
-  <link href="https://blog.camelz.site/"/>
+  <link href="https://blog.7306923.xyz/"/>
   <updated>2024-08-22T13:11:07.560Z</updated>
-  <id>https://blog.camelz.site/</id>
+  <id>https://blog.7306923.xyz/</id>
   
   <author>
-    <name>駝駱仧</name>
+    <name>AK-2G</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo里animated 动画的使用方法</title>
-    <link href="https://blog.camelz.site/posts/d87f7e0c.html"/>
-    <id>https://blog.camelz.site/posts/d87f7e0c.html</id>
+    <link href="https://blog.7306923.xyz/posts/d87f7e0c.html"/>
+    <id>https://blog.7306923.xyz/posts/d87f7e0c.html</id>
     <published>2024-08-22T02:54:35.000Z</published>
     <updated>2024-08-22T13:11:07.560Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>OpenWrt二级路由IPV6设置</title>
-    <link href="https://blog.camelz.site/posts/7b51278d.html"/>
-    <id>https://blog.camelz.site/posts/7b51278d.html</id>
+    <link href="https://blog.7306923.xyz/posts/7b51278d.html"/>
+    <id>https://blog.7306923.xyz/posts/7b51278d.html</id>
     <published>2024-07-25T13:47:19.000Z</published>
     <updated>2024-08-11T03:13:02.295Z</updated>
     
@@ -56,21 +56,21 @@
     
     
     
-    <category term="OpenWrt" scheme="https://blog.camelz.site/categories/OpenWrt/"/>
+    <category term="OpenWrt" scheme="https://blog.7306923.xyz/categories/OpenWrt/"/>
     
     
-    <category term="OpenWrt" scheme="https://blog.camelz.site/tags/OpenWrt/"/>
+    <category term="OpenWrt" scheme="https://blog.7306923.xyz/tags/OpenWrt/"/>
     
-    <category term="二级路由" scheme="https://blog.camelz.site/tags/%E4%BA%8C%E7%BA%A7%E8%B7%AF%E7%94%B1/"/>
+    <category term="二级路由" scheme="https://blog.7306923.xyz/tags/%E4%BA%8C%E7%BA%A7%E8%B7%AF%E7%94%B1/"/>
     
-    <category term="IPV6" scheme="https://blog.camelz.site/tags/IPV6/"/>
+    <category term="IPV6" scheme="https://blog.7306923.xyz/tags/IPV6/"/>
     
   </entry>
   
   <entry>
     <title>Redmi_AC2100 Openwrt固件23.05安装passwall的操作步骤</title>
-    <link href="https://blog.camelz.site/posts/e539a68.html"/>
-    <id>https://blog.camelz.site/posts/e539a68.html</id>
+    <link href="https://blog.7306923.xyz/posts/e539a68.html"/>
+    <id>https://blog.7306923.xyz/posts/e539a68.html</id>
     <published>2024-07-25T13:02:17.000Z</published>
     <updated>2024-08-11T03:12:30.704Z</updated>
     
@@ -84,21 +84,21 @@
     
     
     
-    <category term="路由器" scheme="https://blog.camelz.site/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    <category term="路由器" scheme="https://blog.7306923.xyz/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
     
-    <category term="OpenWrt" scheme="https://blog.camelz.site/tags/OpenWrt/"/>
+    <category term="OpenWrt" scheme="https://blog.7306923.xyz/tags/OpenWrt/"/>
     
-    <category term="redmi_AC2100" scheme="https://blog.camelz.site/tags/redmi-AC2100/"/>
+    <category term="redmi_AC2100" scheme="https://blog.7306923.xyz/tags/redmi-AC2100/"/>
     
-    <category term="Passwall" scheme="https://blog.camelz.site/tags/Passwall/"/>
+    <category term="Passwall" scheme="https://blog.7306923.xyz/tags/Passwall/"/>
     
   </entry>
   
   <entry>
     <title>hexo-butterfly一图流教程</title>
-    <link href="https://blog.camelz.site/posts/1cffd2c0.html"/>
-    <id>https://blog.camelz.site/posts/1cffd2c0.html</id>
+    <link href="https://blog.7306923.xyz/posts/1cffd2c0.html"/>
+    <id>https://blog.7306923.xyz/posts/1cffd2c0.html</id>
     <published>2024-07-22T13:58:17.000Z</published>
     <updated>2024-07-27T02:54:04.833Z</updated>
     
@@ -113,19 +113,19 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/tags/butterfly/"/>
     
-    <category term="一图流" scheme="https://blog.camelz.site/tags/%E4%B8%80%E5%9B%BE%E6%B5%81/"/>
+    <category term="一图流" scheme="https://blog.7306923.xyz/tags/%E4%B8%80%E5%9B%BE%E6%B5%81/"/>
     
   </entry>
   
   <entry>
     <title>Markdown自带语法和Butterfly外挂标签语法</title>
-    <link href="https://blog.camelz.site/posts/e9069468.html"/>
-    <id>https://blog.camelz.site/posts/e9069468.html</id>
+    <link href="https://blog.7306923.xyz/posts/e9069468.html"/>
+    <id>https://blog.7306923.xyz/posts/e9069468.html</id>
     <published>2024-07-20T07:25:10.000Z</published>
     <updated>2024-08-15T12:26:15.096Z</updated>
     
@@ -139,23 +139,23 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/categories/butterfly/"/>
     
     
-    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="外挂标签" scheme="https://blog.7306923.xyz/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
-    <category term="标签外挂" scheme="https://blog.camelz.site/tags/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/"/>
+    <category term="标签外挂" scheme="https://blog.7306923.xyz/tags/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/"/>
     
-    <category term="Markdown自带语法" scheme="https://blog.camelz.site/tags/Markdown%E8%87%AA%E5%B8%A6%E8%AF%AD%E6%B3%95/"/>
+    <category term="Markdown自带语法" scheme="https://blog.7306923.xyz/tags/Markdown%E8%87%AA%E5%B8%A6%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="Butterfly外挂标签" scheme="https://blog.camelz.site/tags/Butterfly%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="Butterfly外挂标签" scheme="https://blog.7306923.xyz/tags/Butterfly%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
   <entry>
     <title>旁路由基于IPV6配置wireguardVPN</title>
-    <link href="https://blog.camelz.site/posts/d90ac5d4.html"/>
-    <id>https://blog.camelz.site/posts/d90ac5d4.html</id>
+    <link href="https://blog.7306923.xyz/posts/d90ac5d4.html"/>
+    <id>https://blog.7306923.xyz/posts/d90ac5d4.html</id>
     <published>2024-07-19T13:07:13.000Z</published>
     <updated>2024-07-27T02:49:21.145Z</updated>
     
@@ -169,21 +169,21 @@
     
     
     
-    <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
+    <category term="VPN" scheme="https://blog.7306923.xyz/categories/VPN/"/>
     
     
-    <category term="wireguard VPN" scheme="https://blog.camelz.site/tags/wireguard-VPN/"/>
+    <category term="wireguard VPN" scheme="https://blog.7306923.xyz/tags/wireguard-VPN/"/>
     
-    <category term="Wireguard" scheme="https://blog.camelz.site/tags/Wireguard/"/>
+    <category term="Wireguard" scheme="https://blog.7306923.xyz/tags/Wireguard/"/>
     
-    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
+    <category term="VPN" scheme="https://blog.7306923.xyz/tags/VPN/"/>
     
   </entry>
   
   <entry>
     <title>Hexo-butterfly外挂标签安装</title>
-    <link href="https://blog.camelz.site/posts/55804d48.html"/>
-    <id>https://blog.camelz.site/posts/55804d48.html</id>
+    <link href="https://blog.7306923.xyz/posts/55804d48.html"/>
+    <id>https://blog.7306923.xyz/posts/55804d48.html</id>
     <published>2024-07-19T06:17:29.000Z</published>
     <updated>2024-08-03T02:33:44.436Z</updated>
     
@@ -198,21 +198,21 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/categories/butterfly/"/>
     
     
-    <category term="hexo" scheme="https://blog.camelz.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blog.7306923.xyz/tags/hexo/"/>
     
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/tags/butterfly/"/>
     
-    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="外挂标签" scheme="https://blog.7306923.xyz/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
   <entry>
     <title>给hexo-butterfly添加首页轮播图</title>
-    <link href="https://blog.camelz.site/posts/8787b46f.html"/>
-    <id>https://blog.camelz.site/posts/8787b46f.html</id>
+    <link href="https://blog.7306923.xyz/posts/8787b46f.html"/>
+    <id>https://blog.7306923.xyz/posts/8787b46f.html</id>
     <published>2024-07-18T13:25:27.000Z</published>
     <updated>2024-07-27T02:53:44.482Z</updated>
     
@@ -223,19 +223,19 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/categories/butterfly/"/>
     
     
-    <category term="hexo" scheme="https://blog.camelz.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blog.7306923.xyz/tags/hexo/"/>
     
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>hexo-butterfly主题文章双栏布局</title>
-    <link href="https://blog.camelz.site/posts/undefined.html"/>
-    <id>https://blog.camelz.site/posts/undefined.html</id>
+    <link href="https://blog.7306923.xyz/posts/undefined.html"/>
+    <id>https://blog.7306923.xyz/posts/undefined.html</id>
     <published>2024-07-18T13:18:01.000Z</published>
     <updated>2024-07-27T02:54:13.744Z</updated>
     
@@ -246,19 +246,19 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/categories/butterfly/"/>
     
     
-    <category term="hexo" scheme="https://blog.camelz.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blog.7306923.xyz/tags/hexo/"/>
     
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>Hexo页面添加音乐播放列表</title>
-    <link href="https://blog.camelz.site/posts/5b7683e5.html"/>
-    <id>https://blog.camelz.site/posts/5b7683e5.html</id>
+    <link href="https://blog.7306923.xyz/posts/5b7683e5.html"/>
+    <id>https://blog.7306923.xyz/posts/5b7683e5.html</id>
     <published>2024-07-15T04:39:24.000Z</published>
     <updated>2024-07-27T02:55:26.234Z</updated>
     
@@ -269,17 +269,17 @@
     
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo安装及配置Butterfly主题</title>
-    <link href="https://blog.camelz.site/posts/afd8ea3c.html"/>
-    <id>https://blog.camelz.site/posts/afd8ea3c.html</id>
+    <link href="https://blog.7306923.xyz/posts/afd8ea3c.html"/>
+    <id>https://blog.7306923.xyz/posts/afd8ea3c.html</id>
     <published>2024-07-04T08:47:49.000Z</published>
     <updated>2024-07-27T07:20:08.935Z</updated>
     
@@ -293,19 +293,19 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/categories/butterfly/"/>
     
     
-    <category term="hexo" scheme="https://blog.camelz.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blog.7306923.xyz/tags/hexo/"/>
     
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.7306923.xyz/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>Hexo教程相关网址备份</title>
-    <link href="https://blog.camelz.site/posts/61476.html"/>
-    <id>https://blog.camelz.site/posts/61476.html</id>
+    <link href="https://blog.7306923.xyz/posts/61476.html"/>
+    <id>https://blog.7306923.xyz/posts/61476.html</id>
     <published>2024-07-02T13:50:16.000Z</published>
     <updated>2024-08-03T02:35:58.378Z</updated>
     
@@ -317,19 +317,19 @@
     
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/tags/Hexo/"/>
     
-    <category term="Hexo-next" scheme="https://blog.camelz.site/tags/Hexo-next/"/>
+    <category term="Hexo-next" scheme="https://blog.7306923.xyz/tags/Hexo-next/"/>
     
   </entry>
   
   <entry>
     <title>Hexo-next添加点击显示爱心功能</title>
-    <link href="https://blog.camelz.site/posts/10103.html"/>
-    <id>https://blog.camelz.site/posts/10103.html</id>
+    <link href="https://blog.7306923.xyz/posts/10103.html"/>
+    <id>https://blog.7306923.xyz/posts/10103.html</id>
     <published>2024-06-30T04:28:09.000Z</published>
     <updated>2024-07-27T02:59:08.772Z</updated>
     
@@ -340,21 +340,21 @@
     
     
     
-    <category term="Hexo-next" scheme="https://blog.camelz.site/categories/Hexo-next/"/>
+    <category term="Hexo-next" scheme="https://blog.7306923.xyz/categories/Hexo-next/"/>
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/tags/Hexo/"/>
     
-    <category term="Next" scheme="https://blog.camelz.site/tags/Next/"/>
+    <category term="Next" scheme="https://blog.7306923.xyz/tags/Next/"/>
     
-    <category term="Hexo-next" scheme="https://blog.camelz.site/tags/Hexo-next/"/>
+    <category term="Hexo-next" scheme="https://blog.7306923.xyz/tags/Hexo-next/"/>
     
   </entry>
   
   <entry>
     <title>收藏的Windows操作系统和软件网</title>
-    <link href="https://blog.camelz.site/posts/20897.html"/>
-    <id>https://blog.camelz.site/posts/20897.html</id>
+    <link href="https://blog.7306923.xyz/posts/20897.html"/>
+    <id>https://blog.7306923.xyz/posts/20897.html</id>
     <published>2024-06-29T08:08:16.000Z</published>
     <updated>2024-08-20T06:21:43.944Z</updated>
     
@@ -366,19 +366,19 @@
     
     
     
-    <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
+    <category term="Windows" scheme="https://blog.7306923.xyz/categories/Windows/"/>
     
     
-    <category term="Windows" scheme="https://blog.camelz.site/tags/Windows/"/>
+    <category term="Windows" scheme="https://blog.7306923.xyz/tags/Windows/"/>
     
-    <category term="纯净系统" scheme="https://blog.camelz.site/tags/%E7%BA%AF%E5%87%80%E7%B3%BB%E7%BB%9F/"/>
+    <category term="纯净系统" scheme="https://blog.7306923.xyz/tags/%E7%BA%AF%E5%87%80%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
   <entry>
     <title>PVE扩容和直通代码及硬盘直通</title>
-    <link href="https://blog.camelz.site/posts/31267.html"/>
-    <id>https://blog.camelz.site/posts/31267.html</id>
+    <link href="https://blog.7306923.xyz/posts/31267.html"/>
+    <id>https://blog.7306923.xyz/posts/31267.html</id>
     <published>2024-06-29T07:45:45.000Z</published>
     <updated>2024-07-27T02:57:25.994Z</updated>
     
@@ -390,19 +390,19 @@
     
     
     
-    <category term="PVE-虚拟机" scheme="https://blog.camelz.site/categories/PVE-%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="PVE-虚拟机" scheme="https://blog.7306923.xyz/categories/PVE-%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
     
-    <category term="PVE" scheme="https://blog.camelz.site/tags/PVE/"/>
+    <category term="PVE" scheme="https://blog.7306923.xyz/tags/PVE/"/>
     
-    <category term="虚拟机" scheme="https://blog.camelz.site/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://blog.7306923.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>idm序列号永久激活码2024</title>
-    <link href="https://blog.camelz.site/posts/58955.html"/>
-    <id>https://blog.camelz.site/posts/58955.html</id>
+    <link href="https://blog.7306923.xyz/posts/58955.html"/>
+    <id>https://blog.7306923.xyz/posts/58955.html</id>
     <published>2024-06-29T07:41:54.000Z</published>
     <updated>2024-08-03T02:38:30.645Z</updated>
     
@@ -414,17 +414,17 @@
     
     
     
-    <category term="idm" scheme="https://blog.camelz.site/categories/idm/"/>
+    <category term="idm" scheme="https://blog.7306923.xyz/categories/idm/"/>
     
     
-    <category term="idm" scheme="https://blog.camelz.site/tags/idm/"/>
+    <category term="idm" scheme="https://blog.7306923.xyz/tags/idm/"/>
     
   </entry>
   
   <entry>
     <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
-    <link href="https://blog.camelz.site/posts/40339.html"/>
-    <id>https://blog.camelz.site/posts/40339.html</id>
+    <link href="https://blog.7306923.xyz/posts/40339.html"/>
+    <id>https://blog.7306923.xyz/posts/40339.html</id>
     <published>2024-06-27T14:32:23.000Z</published>
     <updated>2024-07-27T02:56:12.840Z</updated>
     
@@ -435,21 +435,21 @@
     
     
     
-    <category term="Hexo-next" scheme="https://blog.camelz.site/categories/Hexo-next/"/>
+    <category term="Hexo-next" scheme="https://blog.7306923.xyz/categories/Hexo-next/"/>
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/tags/Hexo/"/>
     
-    <category term="Next" scheme="https://blog.camelz.site/tags/Next/"/>
+    <category term="Next" scheme="https://blog.7306923.xyz/tags/Next/"/>
     
-    <category term="Hexo-next" scheme="https://blog.camelz.site/tags/Hexo-next/"/>
+    <category term="Hexo-next" scheme="https://blog.7306923.xyz/tags/Hexo-next/"/>
     
   </entry>
   
   <entry>
     <title>Hexo-next主题如何添加动态背景</title>
-    <link href="https://blog.camelz.site/posts/59765.html"/>
-    <id>https://blog.camelz.site/posts/59765.html</id>
+    <link href="https://blog.7306923.xyz/posts/59765.html"/>
+    <id>https://blog.7306923.xyz/posts/59765.html</id>
     <published>2024-06-27T13:39:07.000Z</published>
     <updated>2024-07-27T02:56:21.211Z</updated>
     
@@ -461,21 +461,21 @@
     
     
     
-    <category term="Hexo-next" scheme="https://blog.camelz.site/categories/Hexo-next/"/>
+    <category term="Hexo-next" scheme="https://blog.7306923.xyz/categories/Hexo-next/"/>
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/tags/Hexo/"/>
     
-    <category term="Next" scheme="https://blog.camelz.site/tags/Next/"/>
+    <category term="Next" scheme="https://blog.7306923.xyz/tags/Next/"/>
     
-    <category term="Hexo-next" scheme="https://blog.camelz.site/tags/Hexo-next/"/>
+    <category term="Hexo-next" scheme="https://blog.7306923.xyz/tags/Hexo-next/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客搜索引擎优化</title>
-    <link href="https://blog.camelz.site/posts/57522.html"/>
-    <id>https://blog.camelz.site/posts/57522.html</id>
+    <link href="https://blog.7306923.xyz/posts/57522.html"/>
+    <id>https://blog.7306923.xyz/posts/57522.html</id>
     <published>2024-06-27T12:12:19.000Z</published>
     <updated>2024-07-27T02:55:45.474Z</updated>
     
@@ -490,17 +490,17 @@
     
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.7306923.xyz/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>在Ubuntu上安装php7.2、php7.3、php7.4</title>
-    <link href="https://blog.camelz.site/posts/45579.html"/>
-    <id>https://blog.camelz.site/posts/45579.html</id>
+    <link href="https://blog.7306923.xyz/posts/45579.html"/>
+    <id>https://blog.7306923.xyz/posts/45579.html</id>
     <published>2024-06-25T13:53:23.000Z</published>
     <updated>2024-07-27T02:50:01.654Z</updated>
     
@@ -515,10 +515,10 @@
     
     
     
-    <category term="Ubuntu" scheme="https://blog.camelz.site/categories/Ubuntu/"/>
+    <category term="Ubuntu" scheme="https://blog.7306923.xyz/categories/Ubuntu/"/>
     
     
-    <category term="Ubuntu" scheme="https://blog.camelz.site/tags/Ubuntu/"/>
+    <category term="Ubuntu" scheme="https://blog.7306923.xyz/tags/Ubuntu/"/>
     
   </entry>
   

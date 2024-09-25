@@ -944,7 +944,7 @@
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<div class="tip bell"><p>⛓⛓<font color=blue>⇊⬇⬇⬇我的友链⬇⬇⬇⇊</font>⛓⛓</p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- name: 駱駝仧blog</span><br><span class="line">  link: https://blog.camelz.site/</span><br><span class="line">  avatar: https://img.camelz.site/file/8d8e0491ee125d3ff551f.jpg</span><br><span class="line">  descr: 沒事瞎胡搞🥝，越搞越明了🍭</span><br><span class="line">  siteshot: https://img.camelz.site/file/5b053ef58409d98711be2.jpg</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<div class="tip bell"><p>⛓⛓<font color=blue>⇊⬇⬇⬇我的友链⬇⬇⬇⇊</font>⛓⛓</p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- name: AK-2G</span><br><span class="line">  link: https://blog.7306923.xyz/</span><br><span class="line">  avatar: https://img.camelz.site/file/8d8e0491ee125d3ff551f.jpg</span><br><span class="line">  descr: 没事瞎胡搞，越搞越明了🌤</span><br><span class="line">  siteshot: https://img.camelz.site/file/5b053ef58409d98711be2.jpg</span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
