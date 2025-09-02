@@ -614,13 +614,6 @@
   </url>
   
   <url>
-    <loc>https://blog.7306923.xyz/tags/%E6%97%A7%E7%94%B5%E8%84%91nas/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.7306923.xyz/tags/wireguard-VPN/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -636,6 +629,13 @@
   
   <url>
     <loc>https://blog.7306923.xyz/tags/VPN/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.7306923.xyz/tags/%E6%97%A7%E7%94%B5%E8%84%91nas/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -728,14 +728,14 @@
   </url>
   
   <url>
-    <loc>https://blog.7306923.xyz/categories/nas/</loc>
+    <loc>https://blog.7306923.xyz/categories/VPN/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.7306923.xyz/categories/VPN/</loc>
+    <loc>https://blog.7306923.xyz/categories/nas/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
