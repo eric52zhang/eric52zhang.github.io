@@ -822,17 +822,6 @@
     
     
     <entry>
-      <title>照片墙</title>
-      <link href="/Gallery/index.html"/>
-      <url>/Gallery/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/4UPubZS7kiEvr36.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/We75MoDhaUI3ZEk.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>一些漫威图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/4ZOsf7F6QqtCz8H.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Your favorite</div>  <p>关于Your favorite的图片</p>  <a href='/Gallery/yourgirl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/yIZazPb32unFT56.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">My appreciated</div>  <p>关于My appreciated的图片</p>  <a href='/Gallery/mygirl'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>mygirl</title>
       <link href="/Gallery/mygirl.html"/>
       <url>/Gallery/mygirl.html</url>
@@ -849,6 +838,17 @@
       <url>/Gallery/marvel.html</url>
       
         <content type="html"><![CDATA[<div class="gallery">  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://s2.loli.net/2024/07/17/57iFRkhLnbxV8uq.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/s5dWcfko3HGCm6Z.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/xInJhXeMQkpHBGR.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/9ZxgNVy2rWdb6Yn.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/BFYoRajdbwQNtx9.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/PjNtkV4RrsCMfbm.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/2AWnh5FwJuRbgt4.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/IER741wJVHOjr8K.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/GFJkutrKQyTb9La.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/CbA4zHoVxj6Nec8.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/5SOG3ADPWTzuCtF.png","alt":""},{"url":"https://s2.loli.net/2024/07/17/5v1BEqH8nwPzpXm.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Onmij3xcJQg8tFw.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/fFKjbd6pXevilD5.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/ziZeb7SJkMRWTjK.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/jtTxlwbGQvYVrSe.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Ct613DXyVcbT9oK.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/BWXbuoPKk8v9UNE.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/5FWRH2wfxc347pK.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/WKcJjteiAlVRyvx.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/kwbfurSQmCBxnpF.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/4aqIodEpj9fzrwH.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Axrv8P9olSZOtUD.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/KmiMUTeuwvVzY7P.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/q6Z2R4LrcPfFV5o.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/qL6dsjHrQZ9unmY.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/GojNKWbJH4u8xcw.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/RDmCOBwtrhns7PQ.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/REPrztDmWAFjU4C.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/MXpIuDoZRx8TVL9.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/ERgvVOWNdYF3eG5.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/RnoDdyBWrStQlvw.jpg","alt":""}]</span>  </div><button class="gallery-load-more" style="opacity:0">  <span>加载更多</span>  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>  </button></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>照片墙</title>
+      <link href="/Gallery/index.html"/>
+      <url>/Gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/4UPubZS7kiEvr36.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/We75MoDhaUI3ZEk.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>一些漫威图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/4ZOsf7F6QqtCz8H.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Your favorite</div>  <p>关于Your favorite的图片</p>  <a href='/Gallery/yourgirl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/yIZazPb32unFT56.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">My appreciated</div>  <p>关于My appreciated的图片</p>  <a href='/Gallery/mygirl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -888,9 +888,9 @@
     
     
     <entry>
-      <title>追番</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -899,9 +899,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>追番</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
